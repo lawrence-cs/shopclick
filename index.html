@@ -52,9 +52,9 @@
             <div class="col-12 text-center">
                 <h3 style="color: tomato;">Our Shop Links</h3>
             </div>
-            <div class="row col-12 text-center">
+            <div class="row ">
                 <div class="col-md-4 mt-3">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem; margin: auto;">
                         <div class="card-body">
                             <h5 class="card-title">JC Premiere</h5>
                             <img class="sl-logo" src="./img/jc.png">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;margin: auto;">
                         <div class="card-body">
                             <h5 class="card-title">Boy Bondat</h5>
                             <img class="sl-logo" src="./img/boybondat.png">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;margin: auto;">
                         <div class="card-body">
                             <h5 class="card-title">Copper Mask</h5>
                             <img class="sl-logo" src="./img/coppermask.png">
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;margin: auto;">
                         <div class="card-body">
                             <h5 class="card-title">Mang Boks</h5>
                             <img class="sl-logo" src="./img/mangboks.png">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;margin: auto;">
                         <div class="card-body">
                             <h5 class="card-title">Siomai King</h5>
                             <img class="sl-logo" src="./img/siomaiking.png">
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;margin: auto;">
                         <div class="card-body">
                             <h5 class="card-title">Burger Factory</h5>
                             <img class="sl-logo" src="./img/burgerfactory.png">
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;margin: auto;">
                         <div class="card-body">
                             <h5 class="card-title">Noodle House</h5>
                             <img class="sl-logo" src="./img/noodlehouse.png">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;margin: auto;">
                         <div class="card-body">
                             <h5 class="card-title">Potato King</h5>
                             <img class="sl-logo" src="./img/potatoking.png">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;margin: auto;">
                         <div class="card-body">
                             <h5 class="card-title">Siopao King</h5>
                             <img class="sl-logo" src="./img/siopaoking.png">
@@ -164,7 +164,7 @@
                 </p>
                 <p>
                     <strong>Messenger:</strong><br/>
-                    <a href="#">https://m.me/</a>
+                    <a href="https://m.me/100539401819983">m.me/100539401819983</a>
                 </p>
                 <p>
                     <strong>Address:</strong><br />
@@ -185,6 +185,30 @@
     <script src="./js/jquery/3.2.1/jquery.slim.min.js"></script>
     <script src="./js/bootstrap/popper-1.12.9.min.js"></script>
     <script src="./js/bootstrap/bootstrap-4.0.0.min.js"></script>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v8.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="100539401819983">
+    </div>
 
     <div class="text-center">
         Copyright &copy;
